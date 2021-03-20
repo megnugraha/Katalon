@@ -1,0 +1,83 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "LOG IN with registered email address after registration success",
+        "description": "",
+        "id": "log-in;log-in-with-registered-email-address-after-registration-success",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7939682489,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I want to open website URL",
+            "match": {
+              "location": "AuthenticationPage.openWeb()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 727276606,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I fill my email address",
+            "match": {
+              "location": "AuthenticationPage.emailLogin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 591214308,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I fill my password",
+            "match": {
+              "location": "AuthenticationPage.fillPwd()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3475447541,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I want to click sign in",
+            "match": {
+              "location": "AuthenticationPage.signIn()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 502074110,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I want to verify my registration or login success",
+            "match": {
+              "location": "accCreation.verifyRegister()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "LOG IN",
+    "description": "  I want to log in on the web using my registered email address",
+    "id": "log-in",
+    "keyword": "Feature",
+    "uri": "/Users/mega.nugraha03/Katalon Studio/Assignment Test - Jakarta Web Solutions/Include/features/LogIn.feature",
+    "tags": []
+  }
+]

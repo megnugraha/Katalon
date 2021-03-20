@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Register then Sign In" time="46.43" tests="1" failures="0" skips="0" errors="0">
+   <testsuite name="Register then Sign In" tests="1" failures="0" errors="0" time="46.43" skips="0" timestamp="2021-03-21 02:48:57" hostname="mega.nugraha03 - localhost" id="Test Suites/Register then Sign In">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/mega.nugraha03/Katalon Studio/Assignment Test - Jakarta Web Solutions/Reports/20210321_024855/Register then Sign In/20210321_024855"/>
+         <property name="logFiles" value="/Users/mega.nugraha03/Katalon Studio/Assignment Test - Jakarta Web Solutions/Reports/20210321_024855/Register then Sign In/20210321_024855/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="mega.nugraha03 - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+         <property name="browser" value="Chrome 89.0.4389.90"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="f9a73c31d7209bf9a15f7a9c28481852"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=3128, executionList=&quot;&quot;, isApplyToDesiredCapabilities=false }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Runner/Register then Sign In" time="45.652" classname="Test Cases/Runner/Register then Sign In" status="PASSED">
+         <system-out><![CDATA[2021-03-21 02:48:57 - [TEST_CASE][PASSED] - Test Cases/Runner/Register then Sign In: Test Cases/Runner/Register then Sign In
+
+2021-03-21 02:48:57 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Sign Up.feature"): Feature file: 'Include/features/Sign Up.feature' was passed
+
+2021-03-21 02:48:57 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Sign Up.feature' and extract report to folder: '/Users/mega.nugraha03/Katalon Studio/Assignment Test - Jakarta Web Solutions/Reports/20210321_024855/Register then Sign In/20210321_024855/cucumber_report/1616269737898'...
+
+2021-03-21 02:48:58 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO REGISTER ON WEB USING GIVEN NAME: SCENARIO REGISTER ON WEB USING GIVEN NAME
+
+2021-03-21 02:48:58 - [TEST_STEP][PASSED] - I want to open website URL: I want to open website URL
+
+2021-03-21 02:48:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-21 02:48:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-21 02:49:00 - [MESSAGE][PASSED] - Browser is opened with url: 'null'
+
+2021-03-21 02:49:00 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-21 02:49:07 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/index.php?controller=authentication&back=my-account' successfully
+
+2021-03-21 02:49:07 - [MESSAGE][PASSED] - I want to open website URL
+
+2021-03-21 02:49:07 - [TEST_STEP][PASSED] - I fill my email address with my Peter: I fill my email address with my Peter
+
+2021-03-21 02:49:08 - [MESSAGE][PASSED] - Text 'Peter.210391.9683@mailtest.com' is set on object 'Object Repository/authPage/input_Email create'
+
+2021-03-21 02:49:08 - [MESSAGE][PASSED] - I fill my email address with my Peter
+
+2021-03-21 02:49:08 - [TEST_STEP][PASSED] - I click create an account button: I click create an account button
+
+2021-03-21 02:49:09 - [MESSAGE][PASSED] - Object: 'Object Repository/authPage/bt_Create an account' is clicked on
+
+2021-03-21 02:49:09 - [MESSAGE][PASSED] - I click create an account button
+
+2021-03-21 02:49:09 - [TEST_STEP][PASSED] - I fill first Peter and last name: I fill first Peter and last name
+
+2021-03-21 02:49:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/Account Creation Page/Your personal information' is: 'YOUR PERSONAL INFORMATION'
+
+2021-03-21 02:49:12 - [MESSAGE][PASSED] - Text 'YOUR PERSONAL INFORMATION' is present on page 
+
+2021-03-21 02:49:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Creation Page/radio_Mr' is clicked on
+
+2021-03-21 02:49:14 - [MESSAGE][PASSED] - Text 'Peter' is set on object 'Object Repository/Account Creation Page/input_firstname'
+
+2021-03-21 02:49:14 - [MESSAGE][PASSED] - Text 'gIMkNMLFOj' is set on object 'Object Repository/Account Creation Page/input_lastname'
+
+2021-03-21 02:49:14 - [MESSAGE][PASSED] - I fill first Peter and last name
+
+2021-03-21 02:49:14 - [TEST_STEP][PASSED] - I want to verify my email is correct: I want to verify my email is correct
+
+2021-03-21 02:49:14 - [MESSAGE][INFO] - Peter.210391.9683@mailtest.com
+
+2021-03-21 02:49:15 - [MESSAGE][PASSED] - Object 'Object Repository/Account Creation Page/input_email' has attribute 'value' with value 'Peter.210391.9683@mailtest.com'
+
+2021-03-21 02:49:15 - [MESSAGE][PASSED] - I want to verify my email is correct
+
+2021-03-21 02:49:15 - [TEST_STEP][PASSED] - I want to set my password: I want to set my password
+
+2021-03-21 02:49:15 - [MESSAGE][PASSED] - Text 'VmAuIPQlnpAdxIoKYiBa29613' is set on object 'Object Repository/Account Creation Page/input_pwd'
+
+2021-03-21 02:49:15 - [MESSAGE][PASSED] - I want to set my password
+
+2021-03-21 02:49:15 - [TEST_STEP][PASSED] - I want to set my birthdate: I want to set my birthdate
+
+2021-03-21 02:49:15 - [MESSAGE][INFO] - March
+
+2021-03-21 02:49:16 - [MESSAGE][PASSED] - All options with label 'March ' are selected in object 'Object Repository/Account Creation Page/select_birthMonth'  using regular expression
+
+2021-03-21 02:49:17 - [MESSAGE][PASSED] - All options with label '1991  ' are selected in object 'Object Repository/Account Creation Page/select_birthYear' 
+
+2021-03-21 02:49:18 - [MESSAGE][PASSED] - All options with label '21  ' are selected in object 'Object Repository/Account Creation Page/select_birthDate' 
+
+2021-03-21 02:49:18 - [MESSAGE][PASSED] - I want to set my birthdate
+
+2021-03-21 02:49:18 - [TEST_STEP][PASSED] - I want to receive special offer from partner: I want to receive special offer from partner
+
+2021-03-21 02:49:19 - [MESSAGE][PASSED] - Object 'Object Repository/Account Creation Page/checkbox_Sign up for our newsletter' is checked
+
+2021-03-21 02:49:19 - [MESSAGE][PASSED] - I want to receive special offer from partner
+
+2021-03-21 02:49:19 - [TEST_STEP][PASSED] - I want to set Peter as name in Address section: I want to set Peter as name in Address section
+
+2021-03-21 02:49:20 - [MESSAGE][PASSED] - Text 'Peter' is set on object 'Object Repository/Account Creation Page/input_firstname address'
+
+2021-03-21 02:49:20 - [MESSAGE][INFO] - gIMkNMLFOj
+
+2021-03-21 02:49:20 - [MESSAGE][PASSED] - Text 'gIMkNMLFOj' is set on object 'Object Repository/Account Creation Page/input_lastname address'
+
+2021-03-21 02:49:20 - [MESSAGE][PASSED] - I want to set Peter as name in Address section
+
+2021-03-21 02:49:20 - [TEST_STEP][PASSED] - I want to fill address info: I want to fill address info
+
+2021-03-21 02:49:21 - [MESSAGE][PASSED] - Text 'CDxMOSRxeQur' is set on object 'Object Repository/Account Creation Page/input_Company'
+
+2021-03-21 02:49:21 - [MESSAGE][PASSED] - Text 'vNjohQYCJITqRtmqzKbsaNVFsVNyClZtOuKznCdb' is set on object 'Object Repository/Account Creation Page/input_address'
+
+2021-03-21 02:49:22 - [MESSAGE][PASSED] - Text 'CYhZKrdzPJgGO' is set on object 'Object Repository/Account Creation Page/input_address2'
+
+2021-03-21 02:49:23 - [MESSAGE][PASSED] - Text 'VZopFN' is set on object 'Object Repository/Account Creation Page/input_city'
+
+2021-03-21 02:49:24 - [MESSAGE][PASSED] - All options with index in [47] are selected on object 'Object Repository/Account Creation Page/select_state'
+
+2021-03-21 02:49:24 - [MESSAGE][PASSED] - Text '11274' is set on object 'Object Repository/Account Creation Page/input_postcode'
+
+2021-03-21 02:49:25 - [MESSAGE][PASSED] - All options with label 'United States' are selected in object 'Object Repository/Account Creation Page/select_country' 
+
+2021-03-21 02:49:26 - [MESSAGE][PASSED] - Text 'address 1' is set on object 'Object Repository/Account Creation Page/input_address alias'
+
+2021-03-21 02:49:26 - [MESSAGE][PASSED] - I want to fill address info
+
+2021-03-21 02:49:26 - [TEST_STEP][PASSED] - I want to set my mobile: I want to set my mobile
+
+2021-03-21 02:49:26 - [MESSAGE][PASSED] - Text '086735666143' is set on object 'Object Repository/Account Creation Page/input_phoneMobile'
+
+2021-03-21 02:49:26 - [MESSAGE][PASSED] - I want to set my mobile
+
+2021-03-21 02:49:26 - [TEST_STEP][PASSED] - I click on register: I click on register
+
+2021-03-21 02:49:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Creation Page/bt_Register' is clicked on
+
+2021-03-21 02:49:29 - [MESSAGE][PASSED] - I click on register
+
+2021-03-21 02:49:29 - [TEST_STEP][PASSED] - I want to verify my registration or login success: I want to verify my registration or login success
+
+2021-03-21 02:49:29 - [MESSAGE][PASSED] - Text 'Welcome to your account. Here you can manage all of your personal information and orders.' is present on page 
+
+2021-03-21 02:49:29 - [MESSAGE][PASSED] - I want to verify my registration or login success
+
+2021-03-21 02:49:29 - [MESSAGE][PASSED] - Feature file: 'Include/features/Sign Up.feature' was passed
+
+2021-03-21 02:49:29 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/LogIn.feature"): Feature file: 'Include/features/LogIn.feature' was passed
+
+2021-03-21 02:49:29 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/LogIn.feature' and extract report to folder: '/Users/mega.nugraha03/Katalon Studio/Assignment Test - Jakarta Web Solutions/Reports/20210321_024855/Register then Sign In/20210321_024855/cucumber_report/1616269769932'...
+
+2021-03-21 02:49:30 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO LOG IN with registered email address after registration success: SCENARIO LOG IN with registered email address after registration success
+
+2021-03-21 02:49:30 - [TEST_STEP][PASSED] - I want to open website URL: I want to open website URL
+
+2021-03-21 02:49:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-03-21 02:49:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-21 02:49:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-21 02:49:31 - [MESSAGE][PASSED] - Browser is opened with url: 'null'
+
+2021-03-21 02:49:31 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-21 02:49:37 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/index.php?controller=authentication&back=my-account' successfully
+
+2021-03-21 02:49:37 - [MESSAGE][PASSED] - I want to open website URL
+
+2021-03-21 02:49:37 - [TEST_STEP][PASSED] - I fill my email address: I fill my email address
+
+2021-03-21 02:49:38 - [MESSAGE][PASSED] - Text 'Peter.210391.9683@mailtest.com' is set on object 'Object Repository/authPage/input_Email login'
+
+2021-03-21 02:49:38 - [MESSAGE][INFO] - Peter.210391.9683@mailtest.com
+
+2021-03-21 02:49:38 - [MESSAGE][PASSED] - I fill my email address
+
+2021-03-21 02:49:38 - [TEST_STEP][PASSED] - I fill my password: I fill my password
+
+2021-03-21 02:49:39 - [MESSAGE][PASSED] - Text 'VmAuIPQlnpAdxIoKYiBa29613' is set on object 'Object Repository/authPage/input_Password login'
+
+2021-03-21 02:49:39 - [MESSAGE][INFO] - VmAuIPQlnpAdxIoKYiBa29613
+
+2021-03-21 02:49:39 - [MESSAGE][PASSED] - I fill my password
+
+2021-03-21 02:49:39 - [TEST_STEP][PASSED] - I want to click sign in: I want to click sign in
+
+2021-03-21 02:49:42 - [MESSAGE][PASSED] - Object: 'Object Repository/authPage/bt_Sign in' is clicked on
+
+2021-03-21 02:49:42 - [MESSAGE][PASSED] - I want to click sign in
+
+2021-03-21 02:49:42 - [TEST_STEP][PASSED] - I want to verify my registration or login success: I want to verify my registration or login success
+
+2021-03-21 02:49:43 - [MESSAGE][PASSED] - Text 'Welcome to your account. Here you can manage all of your personal information and orders.' is present on page 
+
+2021-03-21 02:49:43 - [MESSAGE][PASSED] - I want to verify my registration or login success
+
+2021-03-21 02:49:43 - [MESSAGE][PASSED] - Feature file: 'Include/features/LogIn.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-03-21 02:48:57 - [TEST_SUITE][PASSED] - Register then Sign In: Test Cases/Runner/Register then Sign In]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

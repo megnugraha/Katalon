@@ -1,0 +1,211 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "54ba4e6b-6d68-4c19-9e67-e1aa59b0607e",
+        "line": 21,
+        "name": "REGISTER ON WEB USING GIVEN NAME",
+        "description": "",
+        "id": "sign-up;register-on-web-using-given-name;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9578284525,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I want to open website URL",
+            "match": {
+              "location": "AuthenticationPage.openWeb()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "aa661ae4-b1a1-4d5f-af81-08e08eb03210"
+          },
+          {
+            "result": {
+              "duration": 817175507,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I fill my email address with my Peter",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Peter",
+                  "offset": 32
+                }
+              ],
+              "location": "AuthenticationPage.email(String)"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "c101a58f-21ce-4a61-a358-1958f03b9f5c"
+          },
+          {
+            "result": {
+              "duration": 431693668,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click create an account button",
+            "match": {
+              "location": "AuthenticationPage.createAcc()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "63b2de54-2918-49e3-ad10-bb90407911f6"
+          },
+          {
+            "result": {
+              "duration": 5649630555,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I fill first Peter and last name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Peter",
+                  "offset": 13
+                }
+              ],
+              "location": "accCreation.createPage_name(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "98737f78-efd1-4e1b-8d01-4af8c770bfc5"
+          },
+          {
+            "result": {
+              "duration": 324362910,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I want to verify my email is correct",
+            "match": {
+              "location": "accCreation.checkEmail()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "2017ef56-a82a-4f6f-bb91-d007d9e17fd6"
+          },
+          {
+            "result": {
+              "duration": 597170244,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I want to set my password",
+            "match": {
+              "location": "accCreation.setPwd()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "b090ce61-3ab0-4e29-94b0-715ec386fddf"
+          },
+          {
+            "result": {
+              "duration": 3075280023,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I want to set my birthdate",
+            "match": {
+              "location": "accCreation.birth()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "30459024-79a6-43c8-84ee-18d41a3733f1"
+          },
+          {
+            "result": {
+              "duration": 528395372,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I want to receive special offer from partner",
+            "match": {
+              "location": "accCreation.checkOffer()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "aebd03c9-79ea-41ff-adba-89dc0adb70c2"
+          },
+          {
+            "result": {
+              "duration": 1362786036,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I want to set Peter as name in Address section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Peter",
+                  "offset": 14
+                }
+              ],
+              "location": "accCreation.verifName(String)"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "38ca258d-e7fa-478b-937e-a61fe12100e6"
+          },
+          {
+            "result": {
+              "duration": 5410326392,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I want to fill address info",
+            "match": {
+              "location": "accCreation.addressInfo()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "ce80d156-0c1c-4255-b3a1-22a3e65bcac4"
+          },
+          {
+            "result": {
+              "duration": 553656278,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I want to set my mobile",
+            "match": {
+              "location": "accCreation.mobilePhone()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "172fc2ff-bd3f-4dd8-be4a-bc0b5de8e64a"
+          },
+          {
+            "result": {
+              "duration": 2723219339,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on register",
+            "match": {
+              "location": "accCreation.register()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "83e6b8a0-f45d-4078-942b-d3cb12bfd34a"
+          },
+          {
+            "result": {
+              "duration": 506502454,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I want to verify my registration or login success",
+            "match": {
+              "location": "accCreation.verifyRegister()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "833f8d57-8b77-4e19-b6c1-a36b29e1876a"
+          }
+        ]
+      }
+    ],
+    "name": "Sign Up",
+    "description": "  I want to register myself on the web using my email address",
+    "id": "sign-up",
+    "keyword": "Feature",
+    "uri": "/Users/mega.nugraha03/Katalon Studio/Assignment Test - Jakarta Web Solutions/Include/features/Sign Up.feature",
+    "tags": []
+  }
+]

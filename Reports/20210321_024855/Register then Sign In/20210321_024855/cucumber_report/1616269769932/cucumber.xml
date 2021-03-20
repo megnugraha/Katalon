@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="13.242831">
+<testcase classname="LOG IN" name="LOG IN with registered email address after registration success" time="13.242831">
+<system-out><![CDATA[Given I want to open website URL............................................passed
+Then I fill my email address................................................passed
+And I fill my password......................................................passed
+Then I want to click sign in................................................passed
+Then I want to verify my registration or login success......................passed
+]]></system-out>
+</testcase>
+</testsuite>

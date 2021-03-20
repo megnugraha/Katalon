@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Register then Sign In,Chrome 89.0.4389.90,,,2021-03-21 02:48:57,2021-03-21 02:49:43,46.191s,PASSED
+,,,,,,,
+Test Cases/Runner/Register then Sign In,Chrome 89.0.4389.90,,,2021-03-21 02:48:57,2021-03-21 02:49:43,45.652s,PASSED
+"runFeatureFile(""Include/features/Sign Up.feature"")",Chrome 89.0.4389.90,,,2021-03-21 02:48:57,2021-03-21 02:49:29,32.071s,PASSED
+"runFeatureFile(""Include/features/LogIn.feature"")",Chrome 89.0.4389.90,,,2021-03-21 02:49:29,2021-03-21 02:49:43,13.330s,PASSED

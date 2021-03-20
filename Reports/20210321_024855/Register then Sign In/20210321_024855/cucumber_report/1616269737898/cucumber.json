@@ -1,0 +1,197 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 21,
+        "name": "REGISTER ON WEB USING GIVEN NAME",
+        "description": "",
+        "id": "sign-up;register-on-web-using-given-name;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9578284525,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I want to open website URL",
+            "match": {
+              "location": "AuthenticationPage.openWeb()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 817175507,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I fill my email address with my Peter",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Peter",
+                  "offset": 32
+                }
+              ],
+              "location": "AuthenticationPage.email(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 431693668,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click create an account button",
+            "match": {
+              "location": "AuthenticationPage.createAcc()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5649630555,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I fill first Peter and last name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Peter",
+                  "offset": 13
+                }
+              ],
+              "location": "accCreation.createPage_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 324362910,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I want to verify my email is correct",
+            "match": {
+              "location": "accCreation.checkEmail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 597170244,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I want to set my password",
+            "match": {
+              "location": "accCreation.setPwd()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3075280023,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I want to set my birthdate",
+            "match": {
+              "location": "accCreation.birth()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 528395372,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I want to receive special offer from partner",
+            "match": {
+              "location": "accCreation.checkOffer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1362786036,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I want to set Peter as name in Address section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Peter",
+                  "offset": 14
+                }
+              ],
+              "location": "accCreation.verifName(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5410326392,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I want to fill address info",
+            "match": {
+              "location": "accCreation.addressInfo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 553656278,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I want to set my mobile",
+            "match": {
+              "location": "accCreation.mobilePhone()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2723219339,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on register",
+            "match": {
+              "location": "accCreation.register()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 506502454,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I want to verify my registration or login success",
+            "match": {
+              "location": "accCreation.verifyRegister()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Sign Up",
+    "description": "  I want to register myself on the web using my email address",
+    "id": "sign-up",
+    "keyword": "Feature",
+    "uri": "/Users/mega.nugraha03/Katalon Studio/Assignment Test - Jakarta Web Solutions/Include/features/Sign Up.feature",
+    "tags": []
+  }
+]

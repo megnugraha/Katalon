@@ -1,0 +1,89 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "35019537-2475-480e-9ab2-77b3eed4e050",
+        "line": 4,
+        "name": "LOG IN with registered email address after registration success",
+        "description": "",
+        "id": "log-in;log-in-with-registered-email-address-after-registration-success",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7939682489,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I want to open website URL",
+            "match": {
+              "location": "AuthenticationPage.openWeb()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "c0f1b1dd-44b0-4b5e-ba0d-52b56e3d2a87"
+          },
+          {
+            "result": {
+              "duration": 727276606,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I fill my email address",
+            "match": {
+              "location": "AuthenticationPage.emailLogin()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "1d5b404b-9b5c-4c72-837b-fb9a166dccdc"
+          },
+          {
+            "result": {
+              "duration": 591214308,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I fill my password",
+            "match": {
+              "location": "AuthenticationPage.fillPwd()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "8fb16232-dc0c-4d1c-a1ff-ea40103c05cc"
+          },
+          {
+            "result": {
+              "duration": 3475447541,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I want to click sign in",
+            "match": {
+              "location": "AuthenticationPage.signIn()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "0f9c8c74-2f7d-493f-a3e2-72cc53809d7b"
+          },
+          {
+            "result": {
+              "duration": 502074110,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I want to verify my registration or login success",
+            "match": {
+              "location": "accCreation.verifyRegister()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "46f095e0-2990-4595-9b3c-ba3d8e2dfb56"
+          }
+        ]
+      }
+    ],
+    "name": "LOG IN",
+    "description": "  I want to log in on the web using my registered email address",
+    "id": "log-in",
+    "keyword": "Feature",
+    "uri": "/Users/mega.nugraha03/Katalon Studio/Assignment Test - Jakarta Web Solutions/Include/features/LogIn.feature",
+    "tags": []
+  }
+]

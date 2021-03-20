@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="31.593519">
+<testcase classname="Sign Up" name="REGISTER ON WEB USING GIVEN NAME" time="31.593519">
+<system-out><![CDATA[Given I want to open website URL............................................passed
+Then I fill my email address with my Peter..................................passed
+And I click create an account button........................................passed
+And I fill first Peter and last name........................................passed
+And I want to verify my email is correct....................................passed
+And I want to set my password...............................................passed
+And I want to set my birthdate..............................................passed
+And I want to receive special offer from partner............................passed
+Then I want to set Peter as name in Address section.........................passed
+And I want to fill address info.............................................passed
+And I want to set my mobile.................................................passed
+Then I click on register....................................................passed
+And I want to verify my registration or login success.......................passed
+]]></system-out>
+</testcase>
+</testsuite>
